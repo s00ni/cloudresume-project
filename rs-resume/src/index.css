@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F7F6FB;
+}
+
+a:hover {
+  color: #8774F2;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.site-nav {
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  position: sticky;
+  top: 0; 
+  padding: 0rem 10rem;
+  background-color: #333039;
+}
+
+.nav-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  font-size: 36px;
+  padding: 0.6rem 0rem;
+}
+
+.intro-wrapper {
+  text-align: center; 
+  color: #fff;
+}
+
+.hero-section {
+  padding: 10rem;
+  background-color: #1E1B25;
+}
+
+.about-section {
+  padding: 5rem;
+  background-color: #49464F;
+}
+
+.socialmedia-wrapper {
+  display: flex;
+  justify-content: center; 
+  gap: 2rem;
+  padding: 3rem;
+}
+
+
+.heading-underline {
+  color: #333039;
+  font-size: 38px; 
+  font-weight: 500; 
+  text-decoration: underline; 
+  text-decoration-color:#8774F2; 
+  text-decoration-thickness: 5px;
+  text-underline-offset: 0.75rem;
+}
+
+.resume-block {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #F7F6FB;
+  border-bottom: 1.5px solid #d6d4d8;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+
+.entry-title {
+  padding-top: 2rem;
+  font-size: 32px;
+  font-weight: 425;
+  color: #333039;
+}
+
+.entry-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 1rem 0rem;
+  color: #605e66
+}
+
+ul {
+  color: #605e66;
+  list-style-type: disc;
+}
+

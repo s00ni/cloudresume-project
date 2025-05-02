@@ -1,0 +1,27 @@
+
+.purple-button {
+    background-color: #A592F6;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1E1B25;
+    width: 200px;
+    padding: 1rem;
+    gap: 0.6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    display:flex;
+  }
+  
+.purple-button:hover {
+    background-color: #a492f6c3;
+  }
+  
+.purple-button img {
+    transition: filter 0.3s ease; 
+    pointer-events: none;
+  }
+  
+.purple-button:hover img {
+    filter: brightness(0.8095); 
+  }
