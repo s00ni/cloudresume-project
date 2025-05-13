@@ -2,6 +2,7 @@ import DownloadLogo from "../assets/Download.svg"
 import  SocialMedia from "./SocialMedia"
 import "../index.css"
 import "./button.css"
+import Fetch from './Fetch'
 
 function PButton() {
     return(
@@ -33,7 +34,7 @@ export default function Hero() {
     <div className="intro-wrapper">
         <div className="hero-section">
             <h1 style={{fontWeight: "500", fontSize: "68px"}}>Hi! I'm Rachel Soon</h1> 
-            <p style={{fontWeight: "100", color: "#CDBFFB", fontSize: "20px"}}>and this page has been viewed x times</p>
+            <span style={{fontWeight: "100", color: "#CDBFFB", fontSize: "20px"}}>and this page has been viewed <Fetch /> times</span>
             <SocialMedia/>
             <PButton/>
         </div>
