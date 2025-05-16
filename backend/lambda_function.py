@@ -3,13 +3,8 @@ import boto3
 dynamodb = boto3.resource('dynamodb')
 
 def lambda_handler(event, context):
-    #Get Table
+    #Define Table
     table=dynamodb.Table('cloudresume-visitor-counter')
-    table.get_item(
-        Key={
-            'counter_id':1
-        }
-    )
 
     #Update Table
     response = table.update_item(
